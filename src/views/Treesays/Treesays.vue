@@ -277,17 +277,20 @@ export default {
 .hc-container {
     display: flex;
     flex-direction: row;
-    width: 930px;
+    width: 960px;
     margin: 20px auto;
-    padding: 15px;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #f4f4f5;
 }
 .hc-posts {
-    width: 68%;
+    width: 61%;
+    background-color: #fff;
+    padding: 15px;
 }
 .hc-form {
-    width: 28%;
+    width: 31%;
+    background-color: #fff;
+    padding: 12px;
 }
 .hc-post-layout {
     display: flex;
