@@ -4,3 +4,19 @@
 .el-select {
     width: 100%;
 }
+.el-tabs__header {
+    padding: 0;
+    background-color: #fff;
+    position: relative;
+    margin: 0 0 8px;
+    
+}
+.el-tabs_header, .el-tabs__nav-wrap, .el-tabs__nav-scroll {
+    height: 45px;
+    min-height: 45px;
+    max-height: 45px;
+}
+.el-tabs__nav {
+    height: 42px;
+    margin: 0 20px;
+}

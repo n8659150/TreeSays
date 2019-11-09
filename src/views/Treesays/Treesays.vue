@@ -17,7 +17,6 @@
                                 <el-button type="primary">查看详情</el-button>
                             </div>
                         </div>
-                        <el-divider />
                     </div>
                 </el-tab-pane>
                 <el-tab-pane label="最新" name="inAuth">
@@ -35,7 +34,6 @@
                                 <el-button type="primary">查看详情</el-button>
                             </div>
                         </div>
-                        <el-divider />
                     </div>
                 </el-tab-pane>
             </el-tabs>
@@ -283,18 +281,21 @@ export default {
     background-color: #f4f4f5;
 }
 .hc-posts {
-    width: 61%;
-    background-color: #fff;
-    padding: 15px;
+    width: 66%;
+    background-color: #f4f4f5;
+    /* padding: 15px; */
 }
 .hc-form {
-    width: 31%;
+    width: 29%;
     background-color: #fff;
     padding: 12px;
 }
 .hc-post-layout {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 8px;
+    padding-bottom: 14px;
 }
 .hc-post-item {
     display: flex;
